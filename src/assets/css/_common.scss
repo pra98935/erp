@@ -425,6 +425,35 @@ body{
             box-shadow: none;
         }
     }
+
+
+    //////////////////////
+    ngb-accordion {
+        .card-header {
+            padding: 0;
+        }
+        button {
+            padding: 0 !important;
+            font-size: 12px !important;
+        }
+        .card-body{
+            padding-top: 0;
+            padding-bottom: 0;
+            .card{
+                border: none;
+                .card-header{
+                    border: none;
+                    background: transparent;
+                }
+            }
+        }
+    }
+
+    .accordion>.card>.card-header {
+        border-radius: 0;
+        margin-bottom: 0;
+    }
+    
    
         
 }

@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AngularSvgIconModule } from 'angular-svg-icon';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PortalLeftComponent } from './layout/portal-left/portal-left.component';

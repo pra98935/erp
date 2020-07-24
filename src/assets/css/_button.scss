@@ -25,5 +25,13 @@ body {
         opacity: 0.8;
     }
 
+    .btn.focus, .btn:focus {
+        outline: 0;
+        box-shadow: none;
+    }
+    .btn-link.focus, .btn-link:focus {
+        text-decoration: none;
+    }
+
 
 }
